@@ -1,0 +1,121 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  line-height: 1.5;
+  letter-spacing: 0.025em;
+}
+
+p {
+  text-align: center;
+
+}
+
+h3 {
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+img {
+  display: block;
+  margin: 50px auto 15px auto;
+  max-width: 100%;
+  /*image will scale down if it has to, but never larger than it's original size*/
+  height: auto;
+  position: relative;
+}
+
+ul {
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+li {
+  margin: 0 0 20px 0;
+  font-size: 0.9em;
+}
+
+a {
+  color: #f2efea;
+}
+
+blockquote {
+  text-align: center;
+  padding: 2em;
+}
+
+#header {
+  background-color: #af6b58;
+  color: #ffffff;
+  padding: 2.5em;
+  letter-spacing: 0.2em;
+  font-size: 1.3em;
+}
+
+#title {
+  text-align: center;
+}
+
+#img-caption {
+  margin: 30px auto 30px auto;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+#tribute-info {
+  background-color: #f2efea;
+  padding: 2.5em;
+}
+
+#headline {
+  padding: 2em;
+  letter-spacing: 0.2em;
+  font-size: 1.em;
+}
+
+#footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 2.5em;
+  letter-spacing: 0.2em;
+}
+
+.sub-heading {
+  font-size: 1.2em;
+  color: #000000;
+  margin: 50px auto;
+}
+
+.years {
+  font-size: 0.8em;
+}
+
+
+@media (max-width: 1200px) {
+  #header {
+    font-size: 1em;
+  }
+li{
+  font-size: 0.7em;
+}
+  .sub-heading {
+    font-size: 0.9em;
+  }
+  .quote{
+    margin-left: 0;
+  }
+
+  #img-caption {
+    font-size: 0.7em;
+  }
+
+  #headline {
+    font-size: 0.9em;
+  }
+
+  #footer {
+    font-size: 0.7em;
+
+  }
+}
